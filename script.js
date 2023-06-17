@@ -3,7 +3,7 @@ const target2 = document.getElementById('target2');
 const target3 = document.getElementById('target3');
 const target4 = document.getElementById('target4');
 const target5 = document.getElementById('target5');
-const atual = 1;
+const atual = 0;
 
 target1.addEventListener('targetFound', event => {
     atual = 1;
@@ -16,17 +16,17 @@ target2.addEventListener('targetFound', event => {
 })
 
 target3.addEventListener('targetFound', event => {
-    atual = 2;
+    atual = 3;
     alert('Ah, esse foi fácil, né? Vamos ver agora..')
 })
 
 target4.addEventListener('targetFound', event => {
-    atual = 2;
+    atual = 4;
     alert('Conseguiu pronunciar o nome? Ainda bem que não precisa! Vamos ao último...')
 })
 
 target5.addEventListener('targetFound', event => {
-    atual = 2;
+    atual = 5;
     alert('Parabéns! Diz aí, gostou? Eu sei que sim ;)')
 })
 
@@ -47,3 +47,9 @@ function alertas () {
         alert('Vivo no meu próprio mundinho, apenas eu e minha rosa...')
     }
 }
+
+alertas();
+alertas();
+alertas();
+alertas();
+alertas();
