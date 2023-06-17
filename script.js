@@ -3,31 +3,36 @@ const target2 = document.getElementById('target2');
 const target3 = document.getElementById('target3');
 const target4 = document.getElementById('target4');
 const target5 = document.getElementById('target5');
-const atual = 0;
+const atual = 1;
 
 target1.addEventListener('targetFound', event => {
-    atual = 1;
+    atual = 2;
     alert('Você acertou o primeiro livro! Vamos ver se conhece o resto!');
+    alertas();
 });
 
 target2.addEventListener('targetFound', event => {
-    atual = 2;
+    atual = 3;
     alert('Parece que temos alguém dos clássicos aqui... Seguiremos, então!')
+    alertas();
 })
 
 target3.addEventListener('targetFound', event => {
-    atual = 3;
+    atual = 4;
     alert('Ah, esse foi fácil, né? Vamos ver agora..')
+    alertas();
 })
 
 target4.addEventListener('targetFound', event => {
-    atual = 4;
+    atual = 5;
     alert('Conseguiu pronunciar o nome? Ainda bem que não precisa! Vamos ao último...')
+    alertas();
 })
 
 target5.addEventListener('targetFound', event => {
-    atual = 5;
+    atual = 6;
     alert('Parabéns! Diz aí, gostou? Eu sei que sim ;)')
+    alertas();
 })
 
 function alertas () {
@@ -48,8 +53,4 @@ function alertas () {
     }
 }
 
-alertas();
-alertas();
-alertas();
-alertas();
 alertas();
