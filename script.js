@@ -4,11 +4,14 @@ const target3 = document.getElementById('target3');
 const target4 = document.getElementById('target4');
 const target5 = document.getElementById('target5');
 
-target1.addEventListener('targetFound', event => {
-    alert('Você acertou o primeiro livro! Vamos ver se conhece o resto!');
-});
-
 alert('Não é minha culpa, é das..');
+
+if(target1.addEventListener('targetFound')) {
+    alert('Você acertou o primeiro livro! Vamos ver se conhece o resto!');
+}
+// target1.addEventListener('targetFound', event => {
+//     alert('Você acertou o primeiro livro! Vamos ver se conhece o resto!');
+// });
 
 alert('No Brasil me criei, quase padre me tornei, se minha esposa é fiel nunca saberei...');
 
