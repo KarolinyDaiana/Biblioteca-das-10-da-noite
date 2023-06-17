@@ -6,7 +6,7 @@ const target5 = document.getElementById('target5');
 
 alert('Não é minha culpa, é das..');
 
-target1.addEventListener('targetFound', event => {
+target1.addEventListener('targetFound', function() {
     alert('Você acertou o primeiro livro! Vamos ver se conhece o resto!');
 });
 
