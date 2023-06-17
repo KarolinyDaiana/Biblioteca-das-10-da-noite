@@ -6,10 +6,11 @@ const target5 = document.getElementById('target5');
 
 alert('Não é minha culpa, é das..');
 
-target1.addEventListener('targetFound', event => {
+for (const target of target1) {
+    target1.addEventListener('targetFound', event => {
     alert('Você acertou o primeiro livro! Vamos ver se conhece o resto!');
 });
-
+}
 alert('No Brasil me criei, quase padre me tornei, se minha esposa é fiel nunca saberei...');
 
 target2.addEventListener('targetFound', event => {
