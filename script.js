@@ -38,7 +38,7 @@ target4.addEventListener("targetFound", (event) => {
 
 target5.addEventListener("targetFound", (event) => {
   atual = 6;
-  alert("Aposto que vocÊ leu isso na escola! Vamos continuar");
+  alert("Aposto que você leu isso na escola! Vamos continuar");
   alertas();
 });
 
@@ -50,19 +50,19 @@ target6.addEventListener("targetFound", (event) => {
 
 target7.addEventListener("targetFound", (event) => {
     atual = 8;
-    alert("Conseguiu pronunciar o nome? Pega a próxima então: ");
+    alert("Essa tava na cara, mas segue que já tá acabando...");
     alertas();
 });
   
 target8.addEventListener("targetFound", (event) => {
     atual = 9;
-    alert("Tava na cara... Segue que já tá acabando!");
+    alert("Conseguiu pronunciar o nome? Pega a próxima então: ");
     alertas();
 });
 
 target9.addEventListener("targetFound", (event) => {
     atual = 10;
-    alert("Acabou!!");
+    alert("Esse é o último, prometo! Vai lá...");
     alertas();
 });
   
