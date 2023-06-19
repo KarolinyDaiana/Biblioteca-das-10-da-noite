@@ -18,13 +18,13 @@ target1.addEventListener("targetFound", (event) => {
 
 target2.addEventListener("targetFound", (event) => {
   atual = 3;
-  alert("Como vocÊ sabia?? Ah, vamos logo para a próxima!");
+  alert("Ahh, essa era fácil, quero ver agora!");
   alertas();
 });
 
 target3.addEventListener("targetFound", (event) => {
   atual = 4;
-  alert("Ah, esse era fácil, diz aí? Quero ver agora!");
+  alert("Você conseguiu... Essa foi difícil né? Vamos à próxima!");
   alertas();
 });
 
