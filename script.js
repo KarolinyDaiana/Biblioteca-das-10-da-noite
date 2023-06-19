@@ -31,14 +31,14 @@ target3.addEventListener("targetFound", (event) => {
 target4.addEventListener("targetFound", (event) => {
   atual = 5;
   alert(
-    "Aposto que você leu isso na escola! Continue assim ;)"
+    "Esse marcou tanto como livro quanto filme! Continue..."
   );
   alertas();
 });
 
 target5.addEventListener("targetFound", (event) => {
   atual = 6;
-  alert("Um livro antigo tão atual.. Vamos seguir!");
+  alert("Aposto que vocÊ leu isso na escola! Vamos continuar");
   alertas();
 });
 
