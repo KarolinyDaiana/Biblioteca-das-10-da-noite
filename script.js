@@ -72,8 +72,6 @@ target10.addEventListener("targetFound", (event) => {
     alertas();
 });
 
-//parei aqui nos targets
-
 function alertas() {
   if (atual == 1) {
     alert("Eu sou a arte da que teve a 1ª, a 2ª e a fria.");
