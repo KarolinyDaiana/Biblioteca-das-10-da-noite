@@ -68,7 +68,7 @@ target9.addEventListener("targetFound", (event) => {
   
 target10.addEventListener("targetFound", (event) => {
     atual = 11;
-    alert("Parabéns! Diz aí, gostou? Eu sei que sim ;)");
+    alert("Parabéns você chegou ao final! Diz aí, gostou? Eu sei que sim ;)");
     alertas();
 });
 
