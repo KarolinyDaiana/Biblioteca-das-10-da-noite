@@ -48,6 +48,6 @@ a {
     color: #aef3e7;
     font-family: 'Outfit', sans-serif;
     display: flex;
-    align-items: center;
+    justify-content: center;
     width: 100%;
 }
